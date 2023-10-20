@@ -7,4 +7,5 @@ const viewer = new PANOLENS.Viewer({
 });
 
 viewer.add( panorama);
+viewer.OrbitControls.noZoom = true;
 
