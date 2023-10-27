@@ -1,4 +1,4 @@
-const images = ['images/Holmsnäset_Pan_134.png', 'images/Storsands_camping_Pan_77.png', 'images/Storflon_Pan_162.png', 'images/Hammaren_Pan_128.png', 'images/Storsands_camping (1).jpg'];
+const images = ['images/Holmsnäset_Pan_134.png'];
 
 for(let i = 0; i < images.length; i++){
     eval("panorama" + i + "= new PANOLENS.ImagePanorama( images[i] );")

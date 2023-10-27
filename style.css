@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "RWESans";
+    src: url("assets/rwe-sans-web-cufonfonts/RWE Sans Web.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "RWESans";
+    src: url("assets/rwe-sans-web-cufonfonts/RWE\ Sans\ Web\ Bold.otf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+
 body{
     margin: 0;
     overflow-y: scroll;
@@ -5,23 +19,31 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-h2{
-    margin: 0;
-    color: black;
+.header-text{
+    font-family: 'RWESans';
+    font-size: 42px;
+    color: #1d4477;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
+
 .tour__head{
     padding-top: 10vh;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: 'RWESans';
+    text-align: center;
 }
 
 [class^="image-container"]{
     height: 26.190rem;
     position: relative;
-    width: 50%;
+    width: 70%;
     display: block;
     margin: 20px auto;
-    margin-left: 25%;
     overflow: hidden;
     border-radius: 10px;
 }
@@ -31,8 +53,7 @@ canvas{
 }
 
 .color-codes{
-    width: 150px;
-    height: 150px;
+    width: 400px;
 }
 
 .color-codes-container {
