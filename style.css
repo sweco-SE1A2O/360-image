@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    overflow: hidden;
+    overflow-y: scroll;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
@@ -15,17 +15,29 @@ h2{
     margin-bottom: 50px;
 }
 
-.image-container{
+[class^="image-container"]{
     height: 26.190rem;
     position: relative;
     width: 50%;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     margin-left: 25%;
     overflow: hidden;
-  border-radius: 10px;
+    border-radius: 10px;
 }
 
 canvas{
     width: 100%;
 }
+
+.color-codes{
+    width: 150px;
+    height: 150px;
+}
+
+.color-codes-container {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    z-index: 1;
+  }
